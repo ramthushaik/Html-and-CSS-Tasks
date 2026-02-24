@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Bouncing Effect</title>
+            
+                <style>
+                    .bounce{
+                        border: 2px solid red;
+                        background-color: yellow;
+                        height: 200px;
+                        width: 200px;
+                        border-radius: 100px;
+                        animation: bounce 1s infinite;
+                    }
+
+                    @keyframes bounce {
+                        0% {
+                            transform: translateY(0);
+                        }
+                        50% {
+                            transform: translateY(600px);
+                        }
+
+                        100% {
+                            transform: translateY(0);
+                        }
+
+                    }
+                </style>
+
+
+
+    </head>
+
+
+
+    <body>
+        <div class="bounce">
+        </div>
+    </body>
+</html>
